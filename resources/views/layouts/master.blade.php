@@ -12,6 +12,7 @@
     @include('layouts.css')
 </head>
 <body>
+    <div id="app">
     <div id="layout-wrapper">
         @include('partials.topbar')
         @include('partials.sidebar')
@@ -25,10 +26,9 @@
             @include('partials.footer')
         </div>
     </div>
-    <button class="btn btn-danger btn-icon" id="back-to-top">
-        <i class="ri-arrow-up-line"></i>
-    </button>
+    <back-to-top></back-to-top>
     @include('partials.toastr')
     @include('layouts.scripts')
+</div>
 </body>
 </html>

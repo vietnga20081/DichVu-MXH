@@ -31,7 +31,7 @@
                                     </div>
                                     <div class="d-flex align-items-end justify-content-between mt-4">
                                         <h4 class="fs-22 fw-semibold ff-secondary mb-4">
-                                            <span class="counter-value" data-target="{{ number_format($users_count) }}">0</span>
+                                            <counter-value :target="{{ $users_count }}"></counter-value>
                                         </h4>
                                         <div class="avatar-sm flex-shrink-0">
                                     <span class="avatar-title bg-warning rounded fs-3">
@@ -56,7 +56,7 @@
                                 </div>
                                 <div class="d-flex align-items-end justify-content-between mt-4">
                                     <h4 class="fs-22 fw-semibold ff-secondary mb-4">
-                                        <span class="counter-value" data-target="{{ $balance }}">0</span>đ
+                                        <counter-value :target="{{ $balance }}"></counter-value>đ
                                     </h4>
                                     <div class="avatar-sm flex-shrink-0">
                                     <span class="avatar-title bg-danger rounded fs-3">
@@ -78,7 +78,7 @@
                                 </div>
                                 <div class="d-flex align-items-end justify-content-between mt-4">
                                     <h4 class="fs-22 fw-semibold ff-secondary mb-4">
-                                        <span class="counter-value" data-target="{{ $amount_deposited }}">0</span>đ
+                                        <counter-value :target="{{ $amount_deposited }}"></counter-value>đ
                                     </h4>
                                     <div class="avatar-sm flex-shrink-0">
                                 <span class="avatar-title bg-info rounded fs-3">
@@ -102,7 +102,7 @@
                                 </div>
                                 <div class="d-flex align-items-end justify-content-between mt-4">
                                     <h4 class="fs-22 fw-semibold ff-secondary mb-4">
-                                        <span class="counter-value" data-target="{{ $amount_spent }}">0</span>đ
+                                        <counter-value :target="{{ $amount_spent }}"></counter-value>đ
                                     </h4>
                                     <div class="avatar-sm flex-shrink-0">
                                         <span class="avatar-title bg-success rounded fs-3">

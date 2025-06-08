@@ -13,7 +13,9 @@
     @include('layouts.css')
 </head>
 <body>
-    @yield('content')
-    @include('layouts.scripts')
+    <div id="app">
+        @yield('content')
+        @include('layouts.scripts')
+    </div>
 </body>
 </html>
